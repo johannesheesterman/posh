@@ -35,6 +35,7 @@
     {
         "defaults": 
         {
+            "colorScheme": "One Half Dark",
             "font": 
             {
                 "face": "MesloLGS Nerd Font"
