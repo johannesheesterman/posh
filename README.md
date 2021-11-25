@@ -1,10 +1,9 @@
 
 
 ## Installation
+Run the following command as administrator:
 ``` powershell
-winget install JanDeDobbeleer.OhMyPosh
-Install-Module -Name Terminal-Icons -Repository PSGallery -Force
-Install-Module PSReadLine -AllowPrerelease -Force
+./install.ps1
 ```
 
 ## $PROFILE
