@@ -1,13 +1,12 @@
 
 
 ## Installation
-Run the following command as administrator:
+1. Run the following command as administrator:
 ``` powershell
 ./install.ps1
 ```
 
-## $PROFILE
-Add the following commands to your $PROFILE file:
+2. Add the following commands to your $PROFILE file:
 ``` powershell
 oh-my-posh --init --shell pwsh --config ~/posh/poshconfig.json | Invoke-Expression
 Import-Module -Name Terminal-Icons
@@ -24,4 +23,17 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
            [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
         }
 }
+```
+
+3. Update VSCode settings
+```json
+"profiles": 
+{
+    "defaults": {
+       "font": {
+            "face": "MesloLGS Nerd Font",
+            "size": 10
+        }
+    },
+}    
 ```
