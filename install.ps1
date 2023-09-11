@@ -12,4 +12,4 @@ Write-Output "Installing Terminal-Icons"
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 
 Write-Output "Installing PSReadLine"
-Install-Module PSReadLine -AllowPrerelease -Force
+Install-Module PSReadLine -Force
